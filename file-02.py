@@ -14,7 +14,3 @@ for i in range(1,21):
     pass
   else:
     print(i)
-
-"""
-this is file 02
-"""
