@@ -1,0 +1,9 @@
+statues=[6,2,3,8]
+min_val=min(statues)
+max_val=max(statue)
+miss_statue=[]
+for i in range(min_val, max_val):
+    if i not in statues:
+        miss_statue.append(i)
+
+print(miss_statue)
